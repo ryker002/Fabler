@@ -7,7 +7,7 @@ const IndexPage = () => (
   <div>
     <section id="home">
       <div className="container">
-        <h1>Fabler</h1>
+        <h1 className="has-text-centered">Fabler</h1>
         <h2>Create it, Your Way</h2>
       </div>
     </section>

@@ -213,3 +213,209 @@ hr {
   -ms-flex-item-align: end;
       align-self: flex-end;
 }
+
+#demo {
+  height: 100vh;
+  background-color: #ED5565;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#demo div {
+  /* width: 50%; */
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-animation: HeroAnimation 3s 0.1s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+          animation: HeroAnimation 3s 0.1s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+  opacity: 0;
+}
+
+#demo div.container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+#demo div.container h1 {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+#demo div.container a {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+#demo div.container .disclaimer {
+  padding-bottom: 5%;
+  width: 60%;
+}
+
+#demo div.container .disclaimer a {
+  font-weight: 700;
+  border: 0;
+  border-radius: 0;
+  padding: 1%;
+}
+
+#demo div h1 {
+  color: white;
+  font-size: 120px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  justify-self: flex-end;
+  padding-right: 15px;
+}
+
+#demo div h2 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  justify-self: flex-start;
+  font-weight: 300;
+}
+
+#demo div a {
+  padding: 8px 20px;
+  background-color: transparent;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 3px solid #FFF;
+  color: #FFF;
+  font-weight: 700;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: 1s cubic-bezier(0.02, 0.8, 0.2, 1);
+  transition: 1s cubic-bezier(0.02, 0.8, 0.2, 1);
+}
+
+#demo div a:hover {
+  background: #FFF;
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+  -webkit-transform: translateY(-3px);
+  transform: translateY(-3px);
+  color: #ED5565;
+}
+
+#fournotfound {
+  height: 100vh;
+  background-color: #ED5565;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#fournotfound div {
+  /* width: 50%; */
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-animation: HeroAnimation 3s 0.1s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+          animation: HeroAnimation 3s 0.1s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+  opacity: 0;
+}
+
+#fournotfound div.container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  height: 25%;
+}
+
+#fournotfound div.container h1 {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+#fournotfound div.container a {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+#fournotfound div.container .disclaimer {
+  padding-bottom: 5%;
+  width: 60%;
+}
+
+#fournotfound div h1 {
+  color: white;
+  font-size: 120px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  justify-self: flex-end;
+  padding-right: 15px;
+}
+
+#fournotfound div h2 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  justify-self: flex-start;
+  font-weight: 300;
+}
+
+#fournotfound div a {
+  padding: 8px 20px;
+  background-color: transparent;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 3px solid #FFF;
+  color: #FFF;
+  font-weight: 700;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: 1s cubic-bezier(0.02, 0.8, 0.2, 1);
+  transition: 1s cubic-bezier(0.02, 0.8, 0.2, 1);
+}
+
+#fournotfound div a:hover {
+  background: #FFF;
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+  -webkit-transform: translateY(-3px);
+  transform: translateY(-3px);
+  color: #ED5565;
+}
