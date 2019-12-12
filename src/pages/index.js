@@ -69,6 +69,8 @@ const IndexPage = () => (
           <img src={require('../img/fields/2.png')} className="d-end" width="300"/>
           <img src={require('../img/fields/3.png')} width="300"/>
           <img src={require('../img/fields/4.png')} width="300"/>
+          <img src={require('../img/fields/5.png')} width="300"/>
+          <img src={require('../img/fields/6.png')} width="300"/>
         </div>
 
       </div>
