@@ -2,7 +2,7 @@
   "name": "fabler-presentation",
   "description": "Fabler Presentation Site",
   "version": "0.1.0",
-  "author": "James Lewandowski",
+  "author": "James Zechman",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.6",
     "framer-motion": "^1.7.0",
